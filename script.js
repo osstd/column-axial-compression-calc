@@ -275,7 +275,7 @@ function managePopUp() {
   });
 
   copyBtn.addEventListener("click", function () {
-    const linkToCopy = "https://www.oshemy.info";
+    const linkToCopy = "https://column-axial-compression-calc.vercel.app";
     navigator.clipboard
       .writeText(linkToCopy)
       .then(function () {
